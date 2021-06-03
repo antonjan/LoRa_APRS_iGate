@@ -5,13 +5,18 @@
 
 The LoRa APRS iGate will work with very cheep hardware which you can buy from amazon, ebay or aliexpress.
 Try it out and be part of the APRS network.
+The defult software from factory is  http://github.com/lyusupov/SoftRF this software can connect to you wifi and you can get GPS data via serial or tcp / udp socket.  Contect to the wifi and pw 12345678 Then connect to admin screen 192.168.4.1 to enable tcp/udp or usb gps messaging. it also can be done via bloutooth.
 
 ![TTGO LoRa32](pics/iGate.png)
 
 I am using the TTGO_T_Beam_V1_0 board below.
 ![TTGO LoRa32](pics/TTGO_ESP32_443_3.jpg)<br>
-The software is not using the GPS but that is all I have
-
+The software is not using the GPS but that is all I have.
+## Compilation and upload steps
+    git clone https://github.com/antonjan/LoRa_APRS_iGate
+    Install The development environment VS Code from here https://code.visualstudio.com/download
+    Start Code and click on the botom Gear icon to install Platformio.
+    
 ## Blog posts and Youtube videos from other Hams
 
 * [OE1ROT](https://www.aronaut.at/2020/11/lora-aprs-gateway-mit-esp32-boards/) (blog post - german) 14.11.2020
