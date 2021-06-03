@@ -17,14 +17,14 @@ The software is not using the GPS but that is all I have.
     git clone https://github.com/antonjan/LoRa_APRS_iGate
     Install The development environment VS Code from here https://code.visualstudio.com/download
     Start Code and click on the botom Gear icon to install Platformio.
-    ![TTGO LoRa32](pics/lora_aprs.jpeg)<br>
+![TTGO LoRa32](pics/lora_aprs.jpeg)<br>
     Then select Exstentions and serache for Platformio and install it.
-    ![TTGO LoRa32](pics/lora_aprs_3.jpeg)<br>
+![TTGO LoRa32](pics/lora_aprs_3.jpeg)<br>
     The instelation can take a while
     We now need to select the LoRa_APRS_iGate folder where you have cloed the github project above. There will be a directory LoRa_APRS_iGate 
-    ![TTGO LoRa32](pics/lora_aprs_2.jpeg)<br>
+![TTGO LoRa32](pics/lora_aprs_2.jpeg)<br>
     Then select the tracker.json and edit with the following information.
-    ![TTGO LoRa32](pics/lora_aprs_01.jpeg)<br>
+![TTGO LoRa32](pics/lora_aprs_01.jpeg)<br>
 ## Blog posts and Youtube videos from other Hams
 
 * [OE1ROT](https://www.aronaut.at/2020/11/lora-aprs-gateway-mit-esp32-boards/) (blog post - german) 14.11.2020
