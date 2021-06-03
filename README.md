@@ -8,6 +8,8 @@ Try it out and be part of the APRS network.
 The defult software from factory is  http://github.com/lyusupov/SoftRF this software can connect to you wifi and you can get GPS data via serial or tcp / udp socket.  Contect to the wifi and pw 12345678 Then connect to admin screen 192.168.4.1 to enable tcp/udp or usb gps messaging. it also can be done via bloutooth.
 more info here https://github.com/lyusupov/SoftRF/wiki/Prime-Edition-MkII#bill-of-materials
 ![TTGO LoRa32](pics/iGate.png)
+## Radio Lora signal exsample
+![TTGO LoRa32](pics/Lora_Aprs_t-Beam_1.png)
 ## Here is an exsample of a Lora message.
 (pics/TTGO_ESP32_443_3.jpg)
 I am using the TTGO_T_Beam_V1_0 board below.
