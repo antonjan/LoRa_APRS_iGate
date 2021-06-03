@@ -26,37 +26,38 @@ The software is not using the GPS but that is all I have.
     Then select the tracker.json and edit with the following information.
 ![TTGO LoRa32](pics/lora_aprs_01.jpeg)<br>
 Ediid the tracker.json to look like this chnaging your callsign
-        {
-	"callsign":"NOCALL-7",
-	"debug": false,
-	"beacon":
+
 	{
-		"message":"LoRa Tracker",
-		"timeout": 1,
-		"symbol": "[",
-		"overlay": "/"
-	},
-	"smart_beacon":
-	{
-		"active":true,
-		"turn_min":25,
-		"slow_rate":300,
-		"slow_speed":10,
-		"fast_rate":60,
-		"fast_speed":100,
-		"min_tx_dist":100,
-		"min_bcn":5
-	},
-	"lora":
-	{
-		"frequency_rx":433775000,
-		"frequency_tx":433775000,
-		"power":20,
-		"spreading_factor":12,
-		"signal_bandwidth":125000,
-		"coding_rate4":5
+		"callsign":"NOCALL-7",
+		"debug": false,
+		"beacon":
+		{
+			"message":"LoRa Tracker",
+			"timeout": 1,
+			"symbol": "[",
+			"overlay": "/"
+		},
+		"smart_beacon":
+		{
+			"active":true,
+			"turn_min":25,
+			"slow_rate":300,
+			"slow_speed":10,
+			"fast_rate":60,
+			"fast_speed":100,
+			"min_tx_dist":100,
+			"min_bcn":5
+		},
+		"lora":
+		{
+			"frequency_rx":433775000,
+			"frequency_tx":433775000,
+			"power":20,
+			"spreading_factor":12,
+			"signal_bandwidth":125000,
+			"coding_rate4":5
+		}
 	}
-}
 
 ## Blog posts and Youtube videos from other Hams
 
