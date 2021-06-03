@@ -25,7 +25,7 @@ The software is not using the GPS but that is all I have.
 ![TTGO LoRa32](pics/lora_aprs_2.jpeg)<br>
     Then select the tracker.json and edit with the following information.
 ![TTGO LoRa32](pics/lora_aprs_01.jpeg)<br>
-Ediid the tracker.json to look like this chnaging your callsign
+Edit the tracker.json file in the data directory to look like this changing your callsign and save the file. [CTRL-s]
 
 	{
 		"callsign":"NOCALL-7",
@@ -58,7 +58,15 @@ Ediid the tracker.json to look like this chnaging your callsign
 			"coding_rate4":5
 		}
 	}
-
+	
+We now need to compile the program.
+This can be done by Clicking on the icon belo red 1 on the botom toolbaar.
+![TTGO LoRa32](pics/botom_toolbar_2.jpg)<br>
+Now connect your LORA-APRS board to usb port of you computer.
+We now need to upload the compeld ferware.bi fie to the Board
+Click on the icon below red 2 to upload the file to your board.
+You should see details in the log terminal if all was sucess
+![TTGO LoRa32](pics/botom_toolbar_2.jpg)<br>
 ## Blog posts and Youtube videos from other Hams
 
 * [OE1ROT](https://www.aronaut.at/2020/11/lora-aprs-gateway-mit-esp32-boards/) (blog post - german) 14.11.2020
