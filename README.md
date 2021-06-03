@@ -8,6 +8,10 @@ Try it out and be part of the APRS network.
 
 ![TTGO LoRa32](pics/iGate.png)
 
+I am using the TTGO_T_Beam_V1_0 board below.
+![TTGO LoRa32](pics/TTGO_ESP32_443_3.jpg)
+The software is not using the GPS but that is all I have
+
 ## Blog posts and Youtube videos from other Hams
 
 * [OE1ROT](https://www.aronaut.at/2020/11/lora-aprs-gateway-mit-esp32-boards/) (blog post - german) 14.11.2020
