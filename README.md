@@ -8,7 +8,8 @@ Try it out and be part of the APRS network.
 The defult software from factory is  http://github.com/lyusupov/SoftRF this software can connect to you wifi and you can get GPS data via serial or tcp / udp socket.  Contect to the wifi and pw 12345678 Then connect to admin screen 192.168.4.1 to enable tcp/udp or usb gps messaging. it also can be done via bloutooth.
 more info here https://github.com/lyusupov/SoftRF/wiki/Prime-Edition-MkII#bill-of-materials
 ![TTGO LoRa32](pics/iGate.png)
-
+## Here is an exsample of a Lora message.
+(pics/TTGO_ESP32_443_3.jpg)
 I am using the TTGO_T_Beam_V1_0 board below.
 ![TTGO LoRa32](pics/TTGO_ESP32_443_3.jpg)<br>
 The software is not using the GPS but that is all I have.
@@ -16,7 +17,14 @@ The software is not using the GPS but that is all I have.
     git clone https://github.com/antonjan/LoRa_APRS_iGate
     Install The development environment VS Code from here https://code.visualstudio.com/download
     Start Code and click on the botom Gear icon to install Platformio.
-    
+    ![TTGO LoRa32](pics/lora_aprs.jpeg)<br>
+    Then select Exstentions and serache for Platformio and install it.
+    ![TTGO LoRa32](pics/lora_aprs_3.jpeg)<br>
+    The instelation can take a while
+    We now need to select the LoRa_APRS_iGate folder where you have cloed the github project above. There will be a directory LoRa_APRS_iGate 
+    ![TTGO LoRa32](pics/lora_aprs_2.jpeg)<br>
+    Then select the tracker.json and edit with the following information.
+    ![TTGO LoRa32](pics/lora_aprs_01.jpeg)<br>
 ## Blog posts and Youtube videos from other Hams
 
 * [OE1ROT](https://www.aronaut.at/2020/11/lora-aprs-gateway-mit-esp32-boards/) (blog post - german) 14.11.2020
